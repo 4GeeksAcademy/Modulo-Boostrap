@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  .container {
+    background-color: #fff;
+    margin-top: 30px;
+    width: 400px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .post {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+  .html {
+    font-size: 28px;
+    color: #000;
+    margin-right: 10px;
+  }
+  
+  
+  .beforeicons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .beforeicons h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .beforeicons p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Tres puntitos */
+  .dots {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  
+  .post-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  
+  .post-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+  
+  .lefticons i,
+  .righticons i {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .righticons i {
+    margin-right: 0;
+  }
+  
+  
+  .post-body {
+    padding: 0 15px 15px 15px;
+  }
+  
+  .post-body p {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .post-body strong {
+    font-weight: bold;
+  }
